@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
+html * {
+  box-sizing: border-box;
+  }
+
+body {
+  font-family: 'Raleway', sans-serif;
+  padding: 0 30px;
+}
+.superior{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+.duascaixas{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  padding: 30px;
+}
+.ana{
+  max-width: 200px;
+}
+.daya{
+  max-width: 357px;
+}
+.myllena{
+  max-width: 188px;
+}
+.mike{
+  max-width: 258px;
+}
+.gabi{
+  max-width: 202px;
+}
+.img {
+  max-width: 200px;
+}
+.leo{
+  max-width: 303px;
+}
+
+img {
+  max-width: 100%;
+}
+.gap {
+  max-width: 70%;
+}
+h1 {
+  color: #80aaff;
+}
+h2 {
+  color: #80aaff;
+}
+h3 {
+  color:#ff4dff;
+}
+#caixa {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0;
+}
+.cartao {
+  padding: 22px;
+  align-self: flex-start;
+}
+a {
+  color: #80aaff;
+  display: inline-block;
+  font-weight: 700;
+  text-decoration: none;
+}
+a:hover {
+  color:#ff4dff;
+  transition: width 4s;
+}
