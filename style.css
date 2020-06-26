@@ -7,17 +7,6 @@ body {
   font-family: 'Raleway', sans-serif;
   padding: 0 30px;
 }
-.superior{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 10px;
-}
-.duascaixas{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 10px;
-  padding: 30px;
-}
 .ana{
   max-width: 200px;
 }
@@ -39,7 +28,23 @@ body {
 .leo{
   max-width: 303px;
 }
-
+.thami{
+  max-width: 256px;
+}
+.trescaixas{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  padding: 22px;
+  align-self: flex-start;
+}
+.duascaixas{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  padding: 30px;
+  align-self: flex-start;
+}
 img {
   max-width: 100%;
 }
@@ -54,15 +59,6 @@ h2 {
 }
 h3 {
   color:#ff4dff;
-}
-#caixa {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 0;
-}
-.cartao {
-  padding: 22px;
-  align-self: flex-start;
 }
 a {
   color: #80aaff;
